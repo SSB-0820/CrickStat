@@ -1,0 +1,69 @@
+# -------------------------
+# Python / ML
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+venv/
+env/
+ENV/
+.venv/
+ml-api/venv/
+ml-api/__pycache__/
+
+# ML models & large data
+models/
+*.pkl
+*.h5
+*.model
+*.sav
+checkpoints/
+
+# Datasets (do NOT upload raw/large data)
+datasets/
+datasets/cleaned/
+datasets/international/
+datasets/ipl/
+datasets/performance/
+archive.zip
+*.csv
+*.xlsx
+
+# -------------------------
+# Node / React (client & server)
+# -------------------------
+node_modules/
+client/node_modules/
+server/node_modules/
+client/build/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# -------------------------
+# Environment & secrets
+# -------------------------
+.env
+.env.*
+secrets.json
+config/*.secret
+*.pem
+*.key
+
+# -------------------------
+# Logs, OS, IDE
+# -------------------------
+*.log
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# -------------------------
+# Misc
+# -------------------------
+*.zip
+*.tar.gz
